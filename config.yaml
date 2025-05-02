@@ -3,7 +3,7 @@ languageCode: "en-us"
 title: "RayGervais"
 author: "RayGervais"
 theme: "hello-friend-ng"
-paginate: 25
+pagination.pagerSize: 25
 
 enableRobotsTXT: true
 enableGitInfo: true
@@ -53,7 +53,7 @@ params:
   logo:
     logoText: $ cd /home/
     logoHomeLink: "/"
-    logoCursorColor: "#6FC1FF"
+    logoCursorColor: "#9ccfd8"
 
   footerLeft: "The website of <a rel='me' href='https://mastodon.social/@_raygervais'>RayGervais</a>"
   footerRight: "Powered by <a href='https://gohugo.io/'>Hugo</a>, <a href='https://netlify.com'>Netlify</a>, and <a href='htts://github.com'>GitHub</a>"
