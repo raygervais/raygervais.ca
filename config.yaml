@@ -51,12 +51,12 @@ params:
   enableThemeToggle: true
 
   logo:
-    logoText: $ cd /home/
+    logoText: cd /home/
     logoHomeLink: "/"
     logoCursorColor: "#9ccfd8"
 
   footerLeft: "The website of <a rel='me' href='https://mastodon.social/@_raygervais'>RayGervais</a>"
-  footerRight: "Powered by <a href='https://gohugo.io/'>Hugo</a>, <a href='https://netlify.com'>Netlify</a>, and <a href='htts://github.com'>GitHub</a>"
+  footerRight: "Powered by <a href='https://gohugo.io/'>Hugo</a> and <a href='htts://github.com'>GitHub</a>"
 
 imaging:
   resampleFilter: "box"

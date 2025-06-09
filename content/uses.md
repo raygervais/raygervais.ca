@@ -23,7 +23,7 @@ On the side, I find myself doing hobby programming in the following domains:
 - Linux-based Systems Programming
 - Contributing to Open Source
 
-This article was inspired by the ever-persistent question "What do they use?", which [Wes Bos](https://twitter/wesbos) decided to answer in the [Uses.Tech](https://uses.tech/) project. I figured, I should add the same to my own site for those interested (in a much more condensed version which can be found [here!](/uses)) and work my site into the listings too. We can always use more canadian representation.
+This page was inspired by the ever-persistent question "What do they use?", which [Wes Bos](https://twitter/wesbos) decided to answer in the [Uses.Tech](https://uses.tech/) project. I figured, I should add the same to my own site for those interested (in a much more condensed version which can be found [here!](/uses)) and work my site into the listings too. We can always use more canadian representation.
 
 ## Hardware
 
@@ -65,13 +65,12 @@ For most of my programming and computer hobbies, I still use the same desktop th
 
 ## Software & Tools
 
-I try to run cross-platform software wherever possible to ensure that I can create productivity workflows and shortcuts which can be used in various mediums. With that in mind, the rise of Electron applications swept the 2010s by storm and I fell into it's cold embrace for quite a while. In the recent few months, I've been eagerly searching for applications which reach the same criteria written in non web-based technologies. My latest find: Alacritty, a GPU-enabled terminal written in Mozilla's RUST. I would swap out VS Code, but I've yet to find a competing text editor with a similar feature set (aside from Sublime which I'm going to be trying out in 2020). Open to your recommendations!
+I try to run cross-platform software wherever possible to ensure that I can create productivity workflows and shortcuts which can be used in various mediums. With that in mind, the rise of Electron applications swept the 2010s by storm and I fell into it's cold embrace for quite a while. In the recent few months, I've been eagerly searching for applications which reach the same criteria written in non web-based technologies.
 
-- Editor: Visual Studio Code, Neovim, Emacs
-- Shells: Fish
-- Terminals: Alacritty
-- Infrastructure as Code: Terraform, Puppet, Packer, Chef
-- Fonts: Cascadia Code, JetBrains Mono, Fira Code
+- Editor: [Zed](https://zed.dev/), [Visual Studio Code](https://code.visualstudio.com/), [Neovim](https://neovim.io/)
+- Shells: [Fish](https://fishshell.com/)
+- Terminals: [Ghostty](https://ghostty.org/)
+- Fonts: [Iosevka](https://github.com/be5invis/Iosevka), [Cascadia Code](https://github.com/microsoft/cascadia-code), [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)
 
 For the UNIX side configurations, I'll include my dotfiles repository (out of date, #TODO: will update this month!) in the resources section of this article, along with [here](https://github.com/raygervais/dotfiles). I find myself using _\*nix_ systems more often these days for both work and play, so I'll have to find a clean separation before I can post the `fishrc, zshrc, and bashrc` files. Speaking of Unix...
 
@@ -86,5 +85,4 @@ _TLDR_: Use whichever you like that's best for the task. I stubborningly am tryi
 ## Resources
 
 - [Cover Image: Photo by Paweł Czerwiński on Unsplash](https://unsplash.com/photos/e0TFOoOvynU)
-- [Alacritty Terminal](https://github.com/alacritty/alacritty)
 - [Desktop Build PC Parts Picker](https://ca.pcpartpicker.com/list/FhfFKB)

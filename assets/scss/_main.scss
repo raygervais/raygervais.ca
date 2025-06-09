@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
     line-height: 1.6;
-    letter-spacing: 0.06em;
+    /* letter-spacing: 0.012em; */
     scroll-behavior: smooth;
 }
 
@@ -24,7 +24,7 @@ body {
         Arial,
         sans-serif;
     font-display: auto;
-    font-size: 1rem;
+    font-size: 1em;
     line-height: 1.54;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -77,20 +77,44 @@ h6 {
 }
 
 h1 {
-    font-size: 2.625rem;
+    font-size: 3.5rem;
+    [data-theme="dark"] & {
+        color: $dark--rp-foam;
+    }
+
+    [data-theme="light"] & {
+        color: $light--rp-foam;
+    }
 }
 
 h2 {
-    font-size: 1.625rem;
-    margin-top: 2.5em;
+    font-size:  3.052rem;
+    /* margin-top: 2.5em; */
+
+
+    [data-theme="dark"] & {
+        color: $dark--rp-iris;
+    }
+
+    [data-theme="light"] & {
+        color: $light--rp-iris;
+    }
 }
 
 h3 {
-    font-size: 1.375rem;
+    font-size: 2.441rem;
+
+    [data-theme="dark"] & {
+        color: $dark--rp-love;
+    }
+
+    [data-theme="light"] & {
+        color: $light--rp-love;
+    }
 }
 
 h4 {
-    font-size: 1.125rem;
+    font-size: 1.953rem;
 }
 
 @media #{$media-size-phone} {
@@ -220,7 +244,7 @@ strong {
 }
 
 blockquote {
-    border-left: 3px solid #3eb0ef;
+    border-left: 3px solid $dark-color-variant;
     margin: 40px;
     padding: 10px 20px;
 
