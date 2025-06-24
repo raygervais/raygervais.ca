@@ -6,6 +6,7 @@ pre[class*="language-"] {
         ui-monospace, "Jetbrains Mono", "Source Code Pro", Menlo, Consolas,
         "DejaVu Sans Mono", monospace;
     font-feature-settings: "calt", "liga";
+    font-size: 0.9rem;
     background: none !important;
     text-align: left;
     white-space: pre;
@@ -20,6 +21,7 @@ pre[class*="language-"] {
     -moz-hyphens: none;
     -ms-hyphens: none;
     hyphens: none;
+
 }
 
 [data-theme="dark"] {

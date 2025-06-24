@@ -117,7 +117,7 @@ cp ./trivy "$DEST/"             || exit_error "Failed to copy trivy binary"
 
 Trivy is found many the vast array of package managers thanks to official and community support!
 
-| Name                                       | Official/Community | Install Command              | Installation Link                                                                                                                    |
+| Name                                       | Ownership | Install Command              | Installation Link                                                                                                                    |
 | ------------------------------------------ | ----------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | MacOS                                      | Official          | `brew install trivy`         | [Trivy.dev: Installation - MacOS](https://trivy.dev/latest/getting-started/installation/#homebrew-official)                           |
 | Fedora / Red Hat Enterprise Linux / CentOS | Official          | `sudo yum -y install trivy`  | [Trivy.dev: Installation - RHEL/CentOS](https://trivy.dev/latest/getting-started/installation/#rhelcentos-official)                   |
