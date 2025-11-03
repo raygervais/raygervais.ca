@@ -27,7 +27,25 @@ This page was inspired by the ever-persistent question "What do they use?", whic
 
 ## Hardware
 
-For most of my programming and computer hobbies, I still use the same desktop that I built in 2019 and talked about [here](/article/what-i-ve-done-differently-this-summer/), which has the following specs:
+### Current Desktop - Apple Mac Mini M2 Pro
+
+| ---------------------------- | -------------------------------------------------------------- |
+| **CPU**                      | Apple M2 Pro - 10-Core 16-GPU - 16-Neural Engine               |
+| **RAM**                      | 32gb                                                           |
+| **Storage**                  | 2tb                                                            |
+| **Sound Card**               | Presonus AudioBox Go Mini                                      |
+| **Monitor**                  | AOC 4K IPS Monitor (x2)                                        |
+| **Mouse**                    | Logitech MX Master 2S                                          |
+| **Keyboard**                 | M71 with Outemu White Jade (Linear)                            |
+| **Speakers**                 | Audio-Technica ATH-M30x Studio Headphones, Personus Eris 3.5   |
+| **Microphone**               | Audio-Technica AT2020                                          |
+| **Operating System**         | MacOS 26 Tahoe                                                 |
+
+
+
+### Previous Desktop
+
+For most of my past programming and computer hobbies, I used the desktop that I built in 2019 and talked about [here](/article/what-i-ve-done-differently-this-summer/), which has the following specs:
 
 |                              |                                                                            |
 | ---------------------------- | -------------------------------------------------------------------------- |
