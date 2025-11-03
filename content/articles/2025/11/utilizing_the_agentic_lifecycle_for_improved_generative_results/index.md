@@ -22,7 +22,7 @@ That’s where understanding and employing a lifecycle which allows us to provid
 - Visual Studio Code
     >
 
-![Screenshot 2025-10-28 at 7.28.46 PM.png](attachment:a764caaa-e523-4504-ab1c-e5b6b80c7cd0:Screenshot_2025-10-28_at_7.28.46_PM.png)
+![Screenshot 2025-10-28 at 7.28.46 PM.png](./images/Screenshot_2025-10-28_at_7.28.46_PM.png)
 
 Ontop of those listed, I find ask utterly fantastic for learning a new codebase, troubleshooting an error within a module, and planning how to approach my task within the file. We can use `Ask` to essentially `chat` with our AI assistant without any codebase changes occurring, allowing developers to “go over” their thinking and design, revising and prompting for additional insights or known issues as if you were pair programming. By going over intention, design and behaviour prior to using `Edit` or `Agent` mode, we can benefit from outcomes like:
 
@@ -118,7 +118,7 @@ In `Ask` mode, I provide the following prompt: **Given how I've implemented my v
 
 Now I have a sample Containerfile which follows the standards established in the repository, along with a few additional configuration changes which I never thought of before. I like the proposed changes so I’ll switch to `Edit` mode and ask it to write the Containerfile that it’s proposing. As we can see in the screenshot, it did exactly that and would later prompt me to suggest that it could make additional edits and improvements.
 
-![Screenshot 2025-10-28 at 8.12.48 PM.png](attachment:5c58d04d-49ca-4a33-bb8b-cbacef95f095:Screenshot_2025-10-28_at_8.12.48_PM.png)
+![Screenshot 2025-10-28 at 8.12.48 PM.png](./images/Screenshot_2025-10-28_at_8.12.48_PM.png)
 
 > Next suggestions (optional)
 >
@@ -133,7 +133,7 @@ Now I could make those edits myself, but instead why don’t we dig further into
 
 We can see that when it wants to run commands, I’m prompted to allow for such interactivity on the system. I’m not bold enough to always allow, but to each their own.
 
-![Screenshot 2025-10-28 at 8.18.11 PM.png](attachment:0b43acec-3316-421a-8cef-2afe8b0d4810:Screenshot_2025-10-28_at_8.18.11_PM.png)
+![Screenshot 2025-10-28 at 8.18.11 PM.png](./images/Screenshot_2025-10-28_at_8.18.11_PM.png)
 
 I’ll skip the output of a Docker/Podman build, and show instead what it provided after:
 
@@ -160,7 +160,7 @@ I’ll skip the output of a Docker/Podman build, and show instead what it provid
 
 I liked the suggestion, so I asked it then to make the entrypoint run the script instead.
 
-![Screenshot 2025-10-28 at 8.30.42 PM.png](attachment:67330b7a-633b-4ce0-993b-aeeb135c1cf9:Screenshot_2025-10-28_at_8.30.42_PM.png)
+![Screenshot 2025-10-28 at 8.30.42 PM.png](./images/Screenshot_2025-10-28_at_8.30.42_PM.png)
 
 And, despite some of the ambiguity of my wording, Copilot didn’t make any edits I didn’t expect. It created a new Containerfile for ai-chat domain within my repo, updated the Makefile and provided additional suggestions. While in this process, I thought why not ask it for further ideas in `Ask` mode:
 
@@ -302,7 +302,7 @@ So I let it implement some, providing the prompt:
 
 From there, it went on to change most of the files and proceeded to do a sanity check using `make` in the terminal, only for me to see the following build error:
 
-![Screenshot 2025-10-28 at 8.56.44 PM.png](attachment:038157fa-6aca-48e6-afe1-fe65468167d6:Screenshot_2025-10-28_at_8.56.44_PM.png)
+![Screenshot 2025-10-28 at 8.56.44 PM.png](./images/Screenshot_2025-10-28_at_8.56.44_PM.png)
 
 ```docker
 The requested operation requires superuser privileges. Please log in as a user with elevated rights, or use the "--assumeno" or "--downloadonly" options to run the command without modifying the system state.
